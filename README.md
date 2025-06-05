@@ -32,7 +32,8 @@ WHERE
 GROUP BY 
     1
 ORDER BY 
-    1; 
+    1; ```
+    
 - 🏙️ **Top 3 Vendors per City**  
 - 🍾 **Sales Trend by Wine Category**  
 - 🏬 **Top Stores by Sales (2023)**  
