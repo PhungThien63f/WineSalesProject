@@ -16,6 +16,8 @@ This project focuses on analyzing wine sales data from 2017 to 2023. It includes
 - Store name normalization.
 - Differentiation between vendor city and store city.
 
+![Dashboard Preview](https://github.com/PhungThien63f/WineSalesProject/blob/main/SchemaDiagram.png)
+
 ### 2. **SQL Analytics**
 Executed multiple SQL queries to generate insights:
 
