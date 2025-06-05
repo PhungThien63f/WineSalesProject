@@ -2,7 +2,9 @@
 
 ## 📌 Overview
 This project focuses on analyzing wine sales data from 2017 to 2023. It includes data processing, schema design using a star schema, SQL-based data exploration, and dashboard creation with Power BI to uncover business insights across stores, vendors, and product categories.
-![Dashboard Preview](https://github.com/PhungThien63f/WineSalesProject/blob/main/Intro.png)
+
+
+## Processing ![Dashboard Preview](https://github.com/PhungThien63f/WineSalesProject/blob/main/Intro.png)
 
 ## 🧩 Project Components
 
