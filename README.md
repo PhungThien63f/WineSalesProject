@@ -19,7 +19,20 @@ This project focuses on analyzing wine sales data from 2017 to 2023. It includes
 ### 2. **SQL Analytics**
 Executed multiple SQL queries to generate insights:
 
-- 📅 **Total Bottles Sold per Year**  
+- 📅 **Total Bottles Sold per Year**
+  
+```sql
+SELECT 
+    EXTRACT(YEAR FROM date) AS year,
+    SUM(bottles_sold) AS total_bottles_sold
+FROM 
+    sales_data.sales
+WHERE 
+    bottles_sold > 0
+GROUP BY 
+    1
+ORDER BY 
+    1; 
 - 🏙️ **Top 3 Vendors per City**  
 - 🍾 **Sales Trend by Wine Category**  
 - 🏬 **Top Stores by Sales (2023)**  
@@ -44,4 +57,3 @@ A dynamic dashboard was created to visualize:
 - **Star Schema Design**
 - **Data Cleaning & Normalization**
 
-## 📂 Folder Structure
